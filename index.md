@@ -1,6 +1,3 @@
----
-layout: default
-title: Home
 ---  Welcome to My Portfolio Hello! My name is G. J.
 ## Projects
 - Project 1: Coming soon
