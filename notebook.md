@@ -1,10 +1,49 @@
 # My Coding Notebook
 
 ## Table of Contents
-- [Day 1](#day-1)
-  - [Notes](#notes)
-  - [Practice](#practice)
+- [Flutter Notes](#flutter-notes)
+  - [What is Flutter?](#what-is-flutter)
+  - [Key Terms and Definition](#key-terms-and-definitions)
 - [Day 2](#day-2)
+- [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks).
+
+
+
+## Flutter Notes
+
+### What is Flutter?
+- Definition: A framework made by Google for building apps that work on web, Android, and iOS - with one codebase.
+- Why is it useful? Uses the Dart programming language.
+
+---
+
+### Key Terms and Definitions
+
+| Term             | Definition                                       | Example / Notes                          |
+|------------------|--------------------------------------------------|-------------------------------------------|
+| Widget           |Basic building block of a Flutter app. Everything is a widget.  |Text, Image, Container, column | 
+| MaterialApp      |The root of the app. Sets up routes and themes   |Found in main.dart                           |
+| Scaffold         |Provides basic visual layout -- like a header, body, floating button.   |Each screen uses it   |
+| Named Routes     |Predefined paths to navigate between screens     |'/,'/page2','/page3',etc                    |
+| Navigator        |Manages screen transitions                        |Navigator.pushNamed(context, '/page2);      |
+| StatefulWidget   |A widget that can change over time                | Used in MyHomePage()                       |
+|StatlessWidget    |A widget that doesnt change                       |Most of the screen files                   |
+| AppBar           |Top navigation bar                                 |Title of each page appears here           |
+|main()            |The function that runs the app                     |Found in main.dart
+| Column           |verticial layout                                  |                                           |
+| Row              |horizontal layout                                 |                                           |
+| Container        |wraps content with padding, margin, or color     |                                           |
+| Text             |displays text                                     |                                           |
+| Image.network    |displays images from UZRL                         |                                           |
+| Padding          |adds space around widget                          |                                           |
+| Center           |centers its child                                 |                                           | 
+ 
+---
+
+### Layout and Design Widgets
+- How do you center a widget?
+- How do you align something to the left or right?
+- What widget adds space around content?
 
 [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 ## Markdown Style Guide for Coding Notebooks
