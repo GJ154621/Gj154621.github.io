@@ -60,12 +60,12 @@
 |Boolean      | A value that can be true or false. | `bool isLoggedIn = false;` |Scores |Timer  |
 |List      | A collection of values in a specific order. | `List<String> names = [];` |Wallet  |Contacts  |
 |Null      | A special value that means “nothing.” | `String? name = null;` |Schedule  |Welcome ___   |
-|Function      | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
-|Parameter      | The information passed into a function to change how it works. | `greet(String name)` |  |  |
-|Return      | The result a function gives back. | `return total;` |  |  |
-|Scope      | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
-|Class      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
-|Object      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
+|Function      | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |Turning car on  |Opening an app |
+|Parameter      | The information passed into a function to change how it works. | `greet(String name)` |Depositing at a bank  |Running or walking  |
+|Return      | The result a function gives back. | `return total;` |getting receipt  |confirmation code  |
+|Scope      | Where a variable or function can be used. | (No set syntax — concept-based) |Coupons  |Import  |
+|Class      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |Student class  |Online class  |
+|Object      | A specific version of a class. | `Dog myDog = Dog();` |Specific Models  |Specific Brands Online  |
 |Property      | A variable that belongs to a class/object. | `String name;` |  |  |
 |Method      | A function that belongs to a class. | `void bark() {}` |  |  |
 |Constructor      | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
