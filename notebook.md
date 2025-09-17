@@ -71,7 +71,7 @@
 |Property      | A variable that belongs to a class/object. | `String name;` |seats  |keyboard  |
 |Method      | A function that belongs to a class. | `void bark() {}` |Computer  |Coding  |
 |Constructor      | A special function used to set up a class when it’s created. | `Dog(this.name);` |Birth certificiate   |Data  |
-|Abstraction      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |Build things easier  Build codes easier|  |
+|Abstraction      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |Build things easier|Builds codes easier  |
 |Override      | Changing how a built-in or inherited function behaves. | `@override` |Make it happen  |Explain  |
 |Void      | A function that does not return a value. | `void printMessage() {}` |homework as complete  |finishing a test  |
 
