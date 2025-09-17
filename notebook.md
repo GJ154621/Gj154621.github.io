@@ -68,12 +68,12 @@
 |Scope      | Where a variable or function can be used. | (No set syntax — concept-based) |Coupons  |Import  |
 |Class      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |Student class  |Online class  |
 |Object      | A specific version of a class. | `Dog myDog = Dog();` |Specific Models  |Specific Brands Online  |
-|Property      | A variable that belongs to a class/object. | `String name;` |  |  |
-|Method      | A function that belongs to a class. | `void bark() {}` |  |  |
-|Constructor      | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
-|Abstraction      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
-|Override      | Changing how a built-in or inherited function behaves. | `@override` |  |  |
-|Void      | A function that does not return a value. | `void printMessage() {}` |  |  |
+|Property      | A variable that belongs to a class/object. | `String name;` |seats  |keyboard  |
+|Method      | A function that belongs to a class. | `void bark() {}` |Computer  |Coding  |
+|Constructor      | A special function used to set up a class when it’s created. | `Dog(this.name);` |Birth certificiate   |Data  |
+|Abstraction      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |Build things easier  Build codes easier|  |
+|Override      | Changing how a built-in or inherited function behaves. | `@override` |Make it happen  |Explain  |
+|Void      | A function that does not return a value. | `void printMessage() {}` |homework as complete  |finishing a test  |
 
 
 
