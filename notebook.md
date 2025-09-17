@@ -57,7 +57,7 @@
 |------|----------------------------|----------------|-------------------|-------------|
 
 |      | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |  |
-|      | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
+|Material App     | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
 |      | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
 |      | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
 |      | A widget that shows things side-by-side. | `Row(...)` |  |  |
