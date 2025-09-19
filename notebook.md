@@ -57,7 +57,7 @@
 |main()  | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |void main() => runApp(MyPortfolioApp());  |
 |Material App     | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |main.dart, return MaterialApp(debugShowCheckedModeBanner: false, title: 'TSA Portfolio', theme: ThemeData(, and more |
 |Scaffold   | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  | return Scaffold(body: Column(mainAxisAlignment: MainAxisAlignment.start, children: [  |
-|Column    | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
+|Column    | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |Column(children: |
 |Row   | A widget that shows things side-by-side. | `Row(...)` |  |  |
 |Container    | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
 |Text      | A widget to display text on the screen. | `Text('Hello')` |  |  |
@@ -72,10 +72,10 @@
 |Wrap     | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
 |@override     | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
 |@override      | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
-|build()      | Required in every widget class to describe what to show. | `build` |  |  |
-|BuildContext      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
-|super.key      | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
-|const      | A keyword that means the value won't change and is set once. | `const` |  |  |
+|build()      | Required in every widget class to describe what to show. | `build` |  |build(BuildContext context)   |
+|BuildContext      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |(context) => const BackgroundScreen(),  |
+|super.key      | A keyword used to pass a value to the parent widget. | `super.key` |  |MyPortfolioApp({super.key});  |
+|const      | A keyword that means the value won't change and is set once. | `const` |  |const Text('Alternate Design')  |
 
 
 
@@ -87,27 +87,27 @@
 
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
-|Variable      | A named container used to store a value that may change. | `var x = 5;` |Goals in soccer  |Followers  |
-|Constant      | A fixed value that cannot change once set. | `const PI = 3.14;` |A Name  |Username  |
-|Data type      | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |Words, Numbers  |Videos, Images  |
-|String      | A sequence of characters used to represent words or text. | `"Hello World"` |Hi, Hello  |Welcome to the app  |
-|Integer      | Whole number values. | `int age = 16;` |Age, Calender  |Notifacations, Streak  |
-|Double      | Number values with decimals. | `double age = 16.2;` |Smooth Movement  |Calculation |
-|Boolean      | A value that can be true or false. | `bool isLoggedIn = false;` |Scores |Timer  |
-|List      | A collection of values in a specific order. | `List<String> names = [];` |Wallet  |Contacts  |
-|Null      | A special value that means “nothing.” | `String? name = null;` |Schedule  |Welcome ___   |
-|Function      | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |Turning car on  |Opening an app |
-|Parameter      | The information passed into a function to change how it works. | `greet(String name)` |Depositing at a bank  |Running or walking  |
-|Return      | The result a function gives back. | `return total;` |getting receipt  |confirmation code  |
-|Scope      | Where a variable or function can be used. | (No set syntax — concept-based) |Coupons  |Import  |
-|Class      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |Student class  |Online class  |
-|Object      | A specific version of a class. | `Dog myDog = Dog();` |Specific Models  |Specific Brands Online  |
-|Property      | A variable that belongs to a class/object. | `String name;` |seats  |keyboard  |
-|Method      | A function that belongs to a class. | `void bark() {}` |Computer  |Coding  |
-|Constructor      | A special function used to set up a class when it’s created. | `Dog(this.name);` |Birth certificiate   |Data  |
-|Abstraction      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |Build things easier|Builds codes easier  |
-|Override      | Changing how a built-in or inherited function behaves. | `@override` |Make it happen  |Explain  |
-|Void      | A function that does not return a value. | `void printMessage() {}` |homework as complete  |finishing a test  |
+|Variable      | A named container used to store a value that may change. | `var x = 5;` |Age  |main.dart, title: 'TSA Portfolio', |
+|Constant      | A fixed value that cannot change once set. | `const PI = 3.14;` |A Name  |const MyPortfolioApp({super.key}); |
+|Data type      | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |Words, Numbers  |debugShowCheckedModeBanner: false, |
+|String      | A sequence of characters used to represent words or text. | `"Hello World"` |Hi, Hello  |"HERE'S A SHOWCASE\nOF ", |
+|Integer      | Whole number values. | `int age = 16;` |Age, Calender  ||
+|Double      | Number values with decimals. | `double age = 16.2;` |Smooth Movement  ||
+|Boolean      | A value that can be true or false. | `bool isLoggedIn = false;` |Scores |  |
+|List      | A collection of values in a specific order. | `List<String> names = [];` |Wallet  | |
+|Null      | A special value that means “nothing.” | `String? name = null;` |Schedule  | |
+|Function      | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |Turning car on  ||
+|Parameter      | The information passed into a function to change how it works. | `greet(String name)` |Depositing at a bank  | |
+|Return      | The result a function gives back. | `return total;` |getting receipt  ||
+|Scope      | Where a variable or function can be used. | (No set syntax — concept-based) |Coupons  | |
+|Class      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |Student class  | |
+|Object      | A specific version of a class. | `Dog myDog = Dog();` |Specific Models  ||
+|Property      | A variable that belongs to a class/object. | `String name;` |seats  | |
+|Method      | A function that belongs to a class. | `void bark() {}` |Computer  | |
+|Constructor      | A special function used to set up a class when it’s created. | `Dog(this.name);` |Birth certificiate   | |
+|Abstraction      | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |Build things easier| |
+|Override      | Changing how a built-in or inherited function behaves. | `@override` |Make it happen  | |
+|Void      | A function that does not return a value. | `void printMessage() {}` |homework as complete  | |
 
 
 
