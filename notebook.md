@@ -114,6 +114,8 @@
 |NextInt|Reads in an int from the user |input.nextInt();  |  |    |
 |Nextdouble|Reads in a double (decimal) from the user |input.nextDouble(); |   |    |
 |NextBoolean|Reads in a boolean (true/false) from the user |input.nextBoolean(); |   |    |
+|Arithmetic operators | -    *      /     % (modulus, returs the remainder from diving)  |   |    |
+|Compound operators (applies the result to the variable) | +=    -=     /=     %=     ++    (adds 1)  |   |    |
 
 
 
