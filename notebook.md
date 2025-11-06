@@ -116,6 +116,9 @@
 |NextBoolean|Reads in a boolean (true/false) from the user |input.nextBoolean(); |   |    |
 |Arithmetic operators | -    *      /     % (modulus, returs the remainder from diving)  |   |    |
 |Compound operators (applies the result to the variable) | +=    -=     /=     %=     ++    (adds 1)  |   |    |
+Overloaded method/function or sonstructor | Uses the same name, but has different parametrs | Pizza(), Pizza (String toppings) 2 constructors, first is a default cheese pizza, 2nd has 1 topping|   |    |
+Dot Notation | Methods are called on objects using a dot after the object name | object.method(value);|   |    |
+Concatenate | To combine Strings with other strings and/or variables | String greeting = "hello" + "My name is " + name ".";|   |    |
 
 
 
