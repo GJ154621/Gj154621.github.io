@@ -119,7 +119,8 @@
 Overloaded method/function or sonstructor | Uses the same name, but has different parametrs | Pizza(), Pizza (String toppings) 2 constructors, first is a default cheese pizza, 2nd has 1 topping|   |    |
 Dot Notation | Methods are called on objects using a dot after the object name | object.method(value);|   |    |
 Concatenate | To combine Strings with other strings and/or variables | String greeting = "hello" + "My name is " + name ".";|   |    |
-
+| Algorithms | Define step by step processes to follow when completing a task or solving a problem | no syntax | Make a grilled cheese | Verify user |
+| Sequencing | Define an order for when steps in an algorithm are completed | Follows 1, 2, 3 | which step comes first in making a grilled cheese | Get bread, add butter, add cheese |
 
 
 
