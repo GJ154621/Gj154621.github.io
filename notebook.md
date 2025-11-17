@@ -8,6 +8,7 @@
   - [Definitions with structures](#flutter-definitions-with-structures)
 - [Code Definitions](#code-definitions)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks).
+- [String notes](#string-notes).
 
 
 
@@ -121,13 +122,16 @@ Dot Notation | Methods are called on objects using a dot after the object name |
 Concatenate | To combine Strings with other strings and/or variables | String greeting = "hello" + "My name is " + name ".";|   |    |
 | Algorithms | Define step by step processes to follow when completing a task or solving a problem | no syntax | Make a grilled cheese | Verify user |
 | Sequencing | Define an order for when steps in an algorithm are completed | Follows 1, 2, 3 | which step comes first in making a grilled cheese | Get bread, add butter, add cheese |
+|Index | The numeric value of the location of a value in a list, starting a 0 in Java | Ex. 'e' is index 1 in "Hello" | | |
 
+[String notes] (#string-notes).
+### String Notes
+- Strings have indices (plural for index,) which start at 0. "Hello" has indices 0(H), 1(e), 2(l), 3(l). 4(o).
+- Final index location is length-1
 
+### String Methods Table
 
-
-
-
-
+<img width="1221" height="415" alt="image" src="https://github.com/user-attachments/assets/95d2a1f4-f6af-4a56-b0a8-4a24062ab180" />
 
 
 
